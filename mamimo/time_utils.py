@@ -77,7 +77,7 @@ def add_time_features(
     year: bool = False,
 ) -> pd.DataFrame:
     """
-    Enrich pandas dataframes with new time feaure columns.
+    Enrich pandas dataframes with new time feature columns.
 
     These features are easy derivations from the dataframe's
     DatetimeIndex, such as the day of week or the month.
